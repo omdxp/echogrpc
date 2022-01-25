@@ -4,3 +4,6 @@ create:
 
 clean:
 	rm -rf gen/proto/
+
+run_server:
+	go run server/server.go
